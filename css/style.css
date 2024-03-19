@@ -1,1 +1,24 @@
+#main-navbar {
+  background-color: blue;
+  overflow: hidden;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
 
+#main-navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+#main-navbar li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#main-navbar a {
+  color: #fff;
+  text-decoration: none;
+}
